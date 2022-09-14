@@ -15,11 +15,12 @@ body {
   display: flex;
   align-items: center;
   background: rgb(68, 105, 247);
-  background: linear-gradient(
+ /* background: linear-gradient(
     238deg,
     rgba(54, 54, 97, 1) 0%,
     rgba(59, 105, 250, 1) 100%
-  );
+  );*/
+  background-image:url("bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -62,10 +63,11 @@ h2 {
 }
 
 .dots {
-  height: 17px;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 0.5em;
+  margin-top:37vh;
+  position: fixed;
 }
 
 .dot1,
@@ -292,7 +294,7 @@ input[type="submit"] {
   overflow: hidden;
   background: rgba(0, 0, 0, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(0.5px);
+  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(0.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
