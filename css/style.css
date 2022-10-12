@@ -293,7 +293,6 @@ input[type="submit"] {
 
 .whenempty h3 {
   color: rgba(255, 255, 255, 0.404);
-  text-transform: capitalize;
   margin: 0;
 }
 
@@ -323,7 +322,7 @@ input[type="submit"] {
 
 .my-name h2 {
   margin: 0;
-  text-transform: capitalize;
+ 
   text-shadow: 2px 2px 5px rgba(31, 38, 135, 0.37);
 }
 
@@ -363,7 +362,7 @@ input[type="submit"] {
 }
 
 .incomplete-task p {
-  text-transform: capitalize;
+  
   font-size: medium;
   text-shadow: 4px 4px 5px rgba(31, 38, 135, 0.37);
   font-weight: 400;
