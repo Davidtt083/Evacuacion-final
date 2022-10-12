@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body,
 html {
@@ -35,6 +35,15 @@ h2 {
   color: white;
   font-size: 1.5rem;
   width: 80%;
+}
+
+h4{
+  font-size: 4rem;
+}
+
+.modal{
+ padding-top: 100px;
+ font-size: 2em;
 }
 
 .container {
@@ -228,6 +237,7 @@ input[type="submit"] {
 .taskarea p {
   text-decoration: none;
   color: white;
+  font-size: 1.5em;
 }
 
 .taskarea {
@@ -305,7 +315,7 @@ input[type="submit"] {
 
 .my-name {
   border-radius: 5px;
-  p adding: 0.6em;
+  padding: 0.6em;
   width: 70%;
   margin: auto;
   margin-bottom: 0.5em;
@@ -349,6 +359,7 @@ input[type="submit"] {
   height: 5%;
   width: 70%;
   color: white;
+  
 }
 
 .incomplete-task p {
