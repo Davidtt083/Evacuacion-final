@@ -5,12 +5,12 @@ body {
 .very-specific-design {
   width: 1920px;
   height: 600px;
-  padding: 50px;
+  padding: 0px;
   text-align: center;
   background:rgba(0, 0, 0, 0);
   position: relative;
   left: 50%;
-  top: -77px;
+  top: 0;
   -webkit-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
   -webkit-transform-origin: center top;
@@ -182,4 +182,8 @@ form {
   outline: none !important;
   border-color: #3B69FA;
   box-shadow: 0 0 10px #3B69FA;
+}
+
+#r2{
+  width: 100px;
 }
