@@ -33,8 +33,9 @@ h1 {
 
 h2 {
   color: #363661 !important;
-  font-size: 4.5rem!important;
+  font-size: 3.5rem!important;
   width: 80%;
+  text-align: justify;
 }
 
 h4{
@@ -222,7 +223,7 @@ input[type="submit"] {
   min-height: 3em;
   width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: justify;
   padding: 0.6em;
   margin: 0.7em auto;
   border-radius: 5px;
@@ -361,7 +362,8 @@ input[type="submit"] {
   width: 100%;
   color: #363661;
   font-weight: 800;
-  text-align: center;
+  flex-flow: row nowrap; 
+  justify-content: space-between;
   margin-left: 16%;
   
 }
