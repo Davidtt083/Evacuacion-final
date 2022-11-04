@@ -36,6 +36,7 @@ h2 {
   font-size: 3.5rem!important;
   width: 80%;
   text-align: justify;
+  text-indent: -52px;
 }
 
 h4{
@@ -296,6 +297,7 @@ input[type="submit"] {
 .whenempty h3 {
   color: rgba(255, 255, 255, 0.404);
   margin: 0;
+  
 }
 
 /* --------Sider-area--------- */
@@ -364,7 +366,7 @@ input[type="submit"] {
   font-weight: 800;
   flex-flow: row nowrap; 
   justify-content: space-between;
-  margin-left: 16%;
+  margin-left: 21%;
   
 }
 
@@ -375,6 +377,12 @@ input[type="submit"] {
   font-weight: 400;
 }
 
+.incomplete-task h2 {
+  
+ text-indent: 0px  !important;
+ text-align: center;
+ margin-left: 90px;
+}
 .incomplete-task-up {
   display: flex;
   justify-content: center;
@@ -427,6 +435,7 @@ input[type="submit"] {
   width: 110%;
 }
 .final{
-  justify-content: center;
+  width: 121%;
   text-align: center;
+  margin-left: -214px;
 }
